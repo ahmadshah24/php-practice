@@ -102,23 +102,156 @@
     
     
     // echo $color[$randColor];
-    $color = ['red', 'green', 'blue', 'black', 'white'];
+    // $color = ['red', 'green', 'blue', 'black', 'white'];
 
 
-    $keys = ['a', 'b', 'c', 'd', 'e', 'f'];
+    // $keys = ['a', 'b', 'c', 'd', 'e', 'f'];
 
-    $newArray = array_fill_keys($keys,'shah');
-    $arrayFill = array_fill(0,6,'jan sha');
+    // $newArray = array_fill_keys($keys,'shah');
+    // $arrayFill = array_fill(0,6,'jan sha');
 
-    echo '<pre>';
-        print_r($newArray);
-        print_r($arrayFill);
-    echo "</pre>";
-
-
-
+    // echo '<pre>';
+    //     print_r($newArray);
+    //     print_r($arrayFill);
+    // echo "</pre>";
 
 
 
+    // function hello2(&$name)
+    // {
+    //     $name = 'jan shah gul';
+    // }
+    // $name = "John Doe";
+    // hello2($name);
+    // echo $name;
+    // function call()
+    // {
+    //     echo "this is call function";
+    // }
 
+    // $callFunction = "call";
+
+
+    // $callFunction();
+    // function display($number)
+    //     {
+    //         if($number <= 3 )
+    //         {
+    //             echo $number."<br>";
+    //             display($number + 1);
+    //         }
+    //     }
+    // display(1);
+
+    // function factorial($number)
+    //     {
+    //         if ($number == 0)
+    //         {
+    //             return 1;
+    //         }
+    //         else
+    //         {
+    //             return ($number * factorial($number - 1));
+    //         }
+    //     }
+
+    // echo factorial(4);
+
+    // function factorial($number)
+    // {
+    //     $result = 1;
+    //     while ($number > 0) {
+    //         $result *= $number;
+    //         $number--;
+    //     }
+    //     return $result;
+    // }
+    
+    // echo factorial(4);
+
+
+//     $studentMarks = array('ahmad' => array('math'=>55,'computer'=>66),'jan'=>array('math'=>95,'computer'=>36));
+
+// // echo $studentMarks['ahmad']['math'];
+
+// // echo "<table border=1>";
+// // echo "<th>"."Name"."</th>";
+// // echo "<th>"."Math"."</th>";
+// // echo "<th>"."computer"."</th>";
+// foreach($studentMarks as $key => $value)
+// {  
+//     //  echo "<tr>";
+    
+//     // echo "</tr>";
+//     // echo "<tr>";
+//     // echo "<td>".$key."</td>";
+//     echo $key."<br>";
+//     foreach($value as $k => $v)
+//     {
+//         // echo "<td>".$v."</td>";
+//         echo $k.$v."<br>";
+//     }
+//     echo "<br>";
+//     // echo "</tr>";
+// }
+// // echo "</table>";
+
+
+    // $marks = array('ali'=>array('math'=>33, 'computer'=>55), 'jan'=>array('math'=>44,'computer'=>66));
+
+
+    // foreach($marks as $key => $value){
+    //     echo $key."<br>";
+    //     // print_r($value);
+    //     foreach($value as $v)
+    //     {
+    //         echo $v."<br>";
+    //     }
+    // }
+
+        // $arr = array('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i');
+
+        //     echo in_array('a', $arr);
+
+        //     if (in_array('b', $arr)){
+        //         echo 'find';
+        //     }else{
+        //         echo 'not found';
+        //     }
+
+    //      $f = ['apple','orange','grapes','malon'];
+    // $v = ['onine','ptato','tomato'];
+    // $c = ['red'];
+
+    // $newArr = array_replace($f,$v,$c);
+
+    
+    // echo "<pre>";
+    // print_r($newArr);
+    // echo "<pre>";
+
+
+    // $arr1 = ['a', 'b', 'c', 'd', 'e'];
+    // $arr2 = [10,11,12,13,14,15,16,17,18,19,20];
+
+    // $a = array('a' =>33, 'b' =>44,'c' =>55);
+    // $b = array('k' =>33, 'l' =>66);
+
+    // $newarr = array_merge($arr1,$arr2);
+    // $arr = array_merge($a,$b,$arr1,$arr2);
+    // $arrr = array_merge_recursive($a,$b);
+
+
+
+    // echo "<pre>";
+    // print_r($newarr);
+    // echo "</pre>";
+    
+    // echo "<pre>";
+    // print_r($arr);
+    // echo "</pre>";
+    
+    // echo "<pre>";
+    // echo "</pre>";
+    // print_r($arrr);
 ?>
