@@ -71,15 +71,25 @@
 
     // echo $_COOKIE[$cookie_name]."<br/>";
     
-    session_start();
-    echo "session is setted"."<br/>";    
-    $_SESSION["name"] = "AHmad shah";
+    // session_start();
+    // echo "session is setted"."<br/>";    
+    // $_SESSION["name"] = "AHmad shah";
 
-    echo $_SESSION["name"]."<br/>";
+    // echo $_SESSION["name"]."<br/>";
     
-    session_unset();
-    session_destroy();
-    echo "session is destroyed";
+    // session_unset();
+    // session_destroy();
+    // echo "session is destroyed";
+    echo "1. this is a message <br/>";
+    echo "2. this is a message <br/>";
+    echo "3. this is a message <br/>";
+    die('this is a die message');
+    echo "4. this is a message <br/>";
+    echo "5. this is a message <br/>";
+    echo "6. this is a message <br/>";
+    echo "7. this is a message <br/>";
+
+
 ?>
 
     <!-- <form action="test.php" method="POST">
@@ -94,5 +104,6 @@
         </label><br><br>
         <input type="submit">
     </form> -->
+
     </body>
     </html>
